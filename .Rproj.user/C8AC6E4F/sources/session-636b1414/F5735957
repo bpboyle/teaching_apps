@@ -1,26 +1,27 @@
 {
-    "id": "BAEFF6B2",
-    "path": "C:/Users/nbb798/Github/teaching_apps/pol2017_content/app.R",
-    "project_path": "pol2017_content/app.R",
+    "id": "F5735957",
+    "path": "C:/Users/nbb798/Github/teaching_apps/deploy_app.R",
+    "project_path": "deploy_app.R",
     "type": "r_source",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1705507032478.0,
+    "created": 1709644756314.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
+        "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "51,0",
-        "scrollLine": "30"
+        "cursorPosition": "3,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1691062103,
+    "lastKnownWriteTime": 1705508666,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1691062103,
+    "last_content_update": 1705508666,
     "read_only": false,
     "read_only_alternatives": []
 }
