@@ -75,7 +75,9 @@ server <- function(input, output) {
           text = element_text(size = 16),
           axis.title.y = element_text(margin = margin(r = 5, l = 5)),
           axis.title.x = element_text(margin = margin(t = 5)),
-          plot.title = element_text(margin = margin(b = 20))) +
+          plot.title = element_text(margin = margin(b = 20)),
+          plot.margin = margin(l = 10, r = 10)
+         ) +
     guides(fill = 'none') +
     labs(x = 'Group', y = 'Count', title = 'Population (100,000 units)')
   ###
@@ -111,7 +113,8 @@ server <- function(input, output) {
           text = element_text(size = 16),
           axis.title.y = element_text(margin = margin(r = 5, l = 5)),
           axis.title.x = element_text(margin = margin(t = 5)),
-          plot.title = element_text(margin = margin(b = 10))
+          plot.title = element_text(margin = margin(b = 20)),
+          plot.margin = margin(l = 20)
           ) +
     guides(fill = 'none') +
     labs(x = 'Group', y = 'Count', title = paste0('Sample (', formatC(sum(sample_df$Freq), big.mark=","),' units)'))
@@ -127,7 +130,9 @@ server <- function(input, output) {
                     theme(panel.grid.minor = element_blank(),
                         panel.grid.major.x = element_blank(),
                         text = element_text(size = 16),
-          plot.title = element_text(margin = margin(b = 10)))
+          plot.title = element_text(margin = margin(b = 20)),
+          plot.margin = margin(l = 20)
+         )
   } 
   
   pop_plot + sample_plot
