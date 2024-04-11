@@ -1,0 +1,27 @@
+{
+    "id": "C9D90B7B",
+    "path": "C:/Users/nbb798/Github/teaching_apps/deploy_app.R",
+    "project_path": "deploy_app.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1712838146590.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "0,0",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1705508666,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1712838152112,
+    "read_only": false,
+    "read_only_alternatives": []
+}
